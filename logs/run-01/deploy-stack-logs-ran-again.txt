@@ -1,0 +1,62 @@
+started updating wes
+starting scraping system metrics...
+system metrics using 0.000028Gi of space
+1 days of system metrics are cached on disk.
+failed to scrape node-exporter metrics for ubuntu
+Traceback (most recent call last):
+  File "/home/lava/Downloads/waggle-edge-stack/kubernetes/./debug/scrape-system-metrics.py", line 148, in <module>
+    main()
+  File "/home/lava/Downloads/waggle-edge-stack/kubernetes/./debug/scrape-system-metrics.py", line 144, in main
+    scrape_rabbitmq_metrics(devices, rootdir)
+  File "/home/lava/Downloads/waggle-edge-stack/kubernetes/./debug/scrape-system-metrics.py", line 76, in scrape_rabbitmq_metrics
+    device = get_core_device(devices)
+  File "/home/lava/Downloads/waggle-edge-stack/kubernetes/./debug/scrape-system-metrics.py", line 41, in get_core_device
+    raise KeyError("could not find core device")
+KeyError: 'could not find core device'
+failed to scrape system metrics!
+No resources found in default namespace.
+No resources found in default namespace.
+cleaning up stuck pods.
+cleaning up pods in namespace kube-system
+pod "svclb-traefik-9e474004-fmgdb" deleted
+finished cleaning up pods in namespace kube-system
+cleaning up pods in namespace default
+No resources found in default namespace.
+finished cleaning up pods in namespace default
+finished cleaning up stuck pods.
+cleaning up stuck terminating pods.
+force cleaning up stuck terminating pods in namespace kube-system.
+finished force cleaning up stuck terminating pods in namespace kube-system.
+No resources found in default namespace.
+force cleaning up stuck terminating pods in namespace default.
+finished force cleaning up stuck terminating pods in namespace default.
+finished cleaning up stuck terminating pods.
+No resources found in default namespace.
+attempting to remove old iio/rainguage plugins
+Error from server (NotFound): deployments.apps "iio-nx" not found
+Error from server (NotFound): deployments.apps "iio-rpi" not found
+Error from server (NotFound): deployments.apps "raingauge" not found
+Error from server (NotFound): deployments.apps "iio-enclosure" not found
+updating wes tools
+/root/ssh/node-private-git-repo-key not found, skipping...
+awk: cannot open /etc/waggle/vsn (No such file or directory)
+syncing manifest (/etc/waggle/node-manifest-v2.json from https://auth.sagecontinuum.org/manifests//
+failed to download manifest (https://auth.sagecontinuum.org/manifests//)
+updating waggle-data-config
+waggle-data-config already exists
+running iio plugin for bme680...
+Launched the plugin wes-iio-bme680 successfully
+You may check the log: pluginctl logs wes-iio-bme680
+To terminate the job: pluginctl rm wes-iio-bme680
+running iio plugin for bme280...
+Launched the plugin wes-iio-bme280 successfully
+You may check the log: pluginctl logs wes-iio-bme280
+To terminate the job: pluginctl rm wes-iio-bme280
+running iio plugin for raingauge
+Launched the plugin wes-raingauge successfully
+You may check the log: pluginctl logs wes-raingauge
+To terminate the job: pluginctl rm wes-raingauge
+updating wes
+generating wes configs
+awk: cannot open /etc/waggle/vsn (No such file or directory)
+cp: cannot stat '/etc/waggle/node-manifest-v2.json': No such file or directory

@@ -1,0 +1,513 @@
+Hit:1 http://ports.ubuntu.com/ubuntu-ports jammy InRelease
+Get:2 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease [128 kB]
+Hit:3 https://repo.download.nvidia.com/jetson/common r36.4 InRelease
+Hit:4 https://repo.download.nvidia.com/jetson/t234 r36.4 InRelease
+Hit:5 https://download.docker.com/linux/ubuntu jammy InRelease
+Hit:6 https://repo.download.nvidia.com/jetson/ffmpeg r36.4 InRelease
+Get:7 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease [127 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease [129 kB]
+Get:9 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 DEP-11 Metadata [112 kB]
+Get:10 http://ports.ubuntu.com/ubuntu-ports jammy-updates/restricted arm64 DEP-11 Metadata [212 B]
+Get:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 DEP-11 Metadata [356 kB]
+Get:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/multiverse arm64 DEP-11 Metadata [212 B]
+Get:13 http://ports.ubuntu.com/ubuntu-ports jammy-backports/main arm64 DEP-11 Metadata [3,564 B]
+Get:14 http://ports.ubuntu.com/ubuntu-ports jammy-backports/restricted arm64 DEP-11 Metadata [212 B]
+Get:15 http://ports.ubuntu.com/ubuntu-ports jammy-backports/universe arm64 DEP-11 Metadata [25.4 kB]
+Get:16 http://ports.ubuntu.com/ubuntu-ports jammy-backports/multiverse arm64 DEP-11 Metadata [212 B]
+Get:17 http://ports.ubuntu.com/ubuntu-ports jammy-security/main arm64 DEP-11 Metadata [54.6 kB]
+Get:18 http://ports.ubuntu.com/ubuntu-ports jammy-security/restricted arm64 DEP-11 Metadata [208 B]
+Get:19 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe arm64 DEP-11 Metadata [126 kB]
+Get:20 http://ports.ubuntu.com/ubuntu-ports jammy-security/multiverse arm64 DEP-11 Metadata [208 B]
+Fetched 1,062 kB in 3s (377 kB/s)
+Reading package lists... Done
+unsupported ubuntu release!
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+dosfstools is already the newest version (4.2-1build3).
+dosfstools set to manually installed.
+efibootmgr is already the newest version (17-1ubuntu2).
+python3-click is already the newest version (8.0.3-1).
+python3-click set to manually installed.
+python3-colorama is already the newest version (0.4.4-1).
+python3-colorama set to manually installed.
+usbutils is already the newest version (1:014-1build1).
+zstd is already the newest version (1.4.8+dfsg-3build1).
+zstd set to manually installed.
+gpiod is already the newest version (1.6.3-1build1).
+i2c-tools is already the newest version (4.3-2build1).
+curl is already the newest version (7.81.0-1ubuntu1.20).
+git is already the newest version (1:2.34.1-1ubuntu1.15).
+linux-firmware is already the newest version (20220329.git681281e4-0ubuntu3.38).
+network-manager is already the newest version (1.36.6-0ubuntu2.1).
+network-manager set to manually installed.
+openssh-server is already the newest version (1:8.9p1-3ubuntu0.13).
+python3 is already the newest version (3.10.6-1~22.04.1).
+python3 set to manually installed.
+systemd-container is already the newest version (249.11-0ubuntu3.16).
+tmux is already the newest version (3.2a-4ubuntu0.2).
+wget is already the newest version (1.21.2-2ubuntu1.1).
+python3-pip is already the newest version (22.0.2+dfsg-1ubuntu0.6).
+nvidia-l4t-core is already the newest version (36.4.4-20250616085344).
+nvidia-l4t-jetson-io is already the newest version (36.4.4-20250616085344).
+nvidia-l4t-kernel is already the newest version (5.15.148-tegra-36.4.4-20250616085344).
+nvidia-l4t-kernel-dtbs is already the newest version (5.15.148-tegra-36.4.4-20250616085344).
+nvidia-l4t-kernel-headers is already the newest version (5.15.148-tegra-36.4.4-20250616085344).
+The following additional packages will be installed:
+  cpp-12 dctrl-tools dkms gcc-12 keyutils libasan8 libgcc-12-dev libjq1
+  liblinear4 libonig5 libtsan2 linux-headers-5.15.0-153
+  linux-headers-5.15.0-153-generic linux-headers-generic lua-lpeg nfs-common
+  nmap-common python3-pip-whl python3-setuptools-whl python3.10-venv
+  wireguard-dkms wireguard-tools
+Suggested packages:
+  dnsutils gcc-12-locales cpp-12-doc debtags menu gcc-12-doc liblinear-tools
+  liblinear-dev hunspell open-iscsi watchdog ncat ndiff zenmap byobu
+  | screenie | iselect
+The following packages will be REMOVED:
+  systemd-timesyncd
+The following NEW packages will be installed:
+  acct chrony cpp-12 dctrl-tools dkms dnsmasq gcc-12 jq keyutils libasan8
+  libgcc-12-dev libjq1 liblinear4 libonig5 libtsan2 linux-headers-5.15.0-153
+  linux-headers-5.15.0-153-generic linux-headers-generic lua-lpeg nano
+  nfs-common nfs-kernel-server nmap nmap-common python3-pip-whl
+  python3-setuptools-whl python3-venv python3.10-venv screen socat wireguard
+  wireguard-dkms wireguard-tools
+0 upgraded, 33 newly installed, 1 to remove and 3 not upgraded.
+Need to get 61.1 MB of archives.
+After this operation, 254 MB of additional disk space will be used.
+Get:1 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 acct arm64 6.6.4-4build2 [86.3 kB]
+Get:2 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 cpp-12 arm64 12.3.0-1ubuntu1~22.04.2 [9,649 kB]
+Get:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libasan8 arm64 12.3.0-1ubuntu1~22.04.2 [2,377 kB]
+Get:4 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libtsan2 arm64 12.3.0-1ubuntu1~22.04.2 [2,515 kB]
+Get:5 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgcc-12-dev arm64 12.3.0-1ubuntu1~22.04.2 [1,168 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 gcc-12 arm64 12.3.0-1ubuntu1~22.04.2 [19.3 MB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 dctrl-tools arm64 2.24-3build2 [65.2 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 dkms all 2.8.7-2ubuntu2.2 [70.1 kB]
+Get:9 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 keyutils arm64 1.6.1-2ubuntu3 [50.0 kB]
+Get:10 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 nfs-common arm64 1:2.6.1-1ubuntu1.2 [241 kB]
+Get:11 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 chrony arm64 4.2-2ubuntu2 [290 kB]
+Get:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 nano arm64 6.2-1ubuntu0.1 [277 kB]
+Get:13 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 dnsmasq all 2.90-0ubuntu0.22.04.1 [19.7 kB]
+Get:14 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libonig5 arm64 6.9.7.1-2build1 [169 kB]
+Get:15 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libjq1 arm64 1.6-2.1ubuntu3.1 [126 kB]
+Get:16 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 jq arm64 1.6-2.1ubuntu3.1 [52.1 kB]
+Get:17 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 liblinear4 arm64 2.3.0+dfsg-5 [37.0 kB]
+Get:18 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 linux-headers-5.15.0-153 all 5.15.0-153.163 [12.3 MB]
+Get:19 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 linux-headers-5.15.0-153-generic arm64 5.15.0-153.163 [2,604 kB]
+Get:20 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 linux-headers-generic arm64 5.15.0.153.153 [2,316 B]
+Get:21 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 lua-lpeg arm64 1.0.2-1 [30.0 kB]
+Get:22 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 nfs-kernel-server arm64 1:2.6.1-1ubuntu1.2 [143 kB]
+Get:23 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 nmap-common all 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1 [3,940 kB]
+Get:24 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.6 [1,680 kB]
+Get:25 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.3 [789 kB]
+Get:26 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 python3.10-venv arm64 3.10.12-1~22.04.11 [5,728 B]
+Get:27 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 python3-venv arm64 3.10.6-1~22.04.1 [1,042 B]
+Get:28 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 screen arm64 4.9.0-1 [661 kB]
+Get:29 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 wireguard-dkms all 1.0.20210606-1 [279 kB]
+Get:30 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 wireguard-tools arm64 1.0.20210914-1ubuntu2 [92.5 kB]
+Get:31 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 wireguard all 1.0.20210914-1ubuntu2 [3,114 B]
+Get:32 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 nmap arm64 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1 [1,709 kB]
+Get:33 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 socat arm64 1.7.4.1-3ubuntu4 [348 kB]
+Fetched 61.1 MB in 16s (3,831 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+(Reading database ... 201064 files and directories currently installed.)
+Removing systemd-timesyncd (249.11-0ubuntu3.16) ...
+Selecting previously unselected package acct.
+(Reading database ... 201050 files and directories currently installed.)
+Preparing to unpack .../00-acct_6.6.4-4build2_arm64.deb ...
+Unpacking acct (6.6.4-4build2) ...
+Selecting previously unselected package cpp-12.
+Preparing to unpack .../01-cpp-12_12.3.0-1ubuntu1~22.04.2_arm64.deb ...
+Unpacking cpp-12 (12.3.0-1ubuntu1~22.04.2) ...
+Selecting previously unselected package libasan8:arm64.
+Preparing to unpack .../02-libasan8_12.3.0-1ubuntu1~22.04.2_arm64.deb ...
+Unpacking libasan8:arm64 (12.3.0-1ubuntu1~22.04.2) ...
+Selecting previously unselected package libtsan2:arm64.
+Preparing to unpack .../03-libtsan2_12.3.0-1ubuntu1~22.04.2_arm64.deb ...
+Unpacking libtsan2:arm64 (12.3.0-1ubuntu1~22.04.2) ...
+Selecting previously unselected package libgcc-12-dev:arm64.
+Preparing to unpack .../04-libgcc-12-dev_12.3.0-1ubuntu1~22.04.2_arm64.deb ...
+Unpacking libgcc-12-dev:arm64 (12.3.0-1ubuntu1~22.04.2) ...
+Selecting previously unselected package gcc-12.
+Preparing to unpack .../05-gcc-12_12.3.0-1ubuntu1~22.04.2_arm64.deb ...
+Unpacking gcc-12 (12.3.0-1ubuntu1~22.04.2) ...
+Selecting previously unselected package dctrl-tools.
+Preparing to unpack .../06-dctrl-tools_2.24-3build2_arm64.deb ...
+Unpacking dctrl-tools (2.24-3build2) ...
+Selecting previously unselected package dkms.
+Preparing to unpack .../07-dkms_2.8.7-2ubuntu2.2_all.deb ...
+Unpacking dkms (2.8.7-2ubuntu2.2) ...
+Selecting previously unselected package keyutils.
+Preparing to unpack .../08-keyutils_1.6.1-2ubuntu3_arm64.deb ...
+Unpacking keyutils (1.6.1-2ubuntu3) ...
+Selecting previously unselected package nfs-common.
+Preparing to unpack .../09-nfs-common_1%3a2.6.1-1ubuntu1.2_arm64.deb ...
+Unpacking nfs-common (1:2.6.1-1ubuntu1.2) ...
+Selecting previously unselected package chrony.
+Preparing to unpack .../10-chrony_4.2-2ubuntu2_arm64.deb ...
+Unpacking chrony (4.2-2ubuntu2) ...
+Selecting previously unselected package nano.
+Preparing to unpack .../11-nano_6.2-1ubuntu0.1_arm64.deb ...
+Unpacking nano (6.2-1ubuntu0.1) ...
+Selecting previously unselected package dnsmasq.
+Preparing to unpack .../12-dnsmasq_2.90-0ubuntu0.22.04.1_all.deb ...
+Unpacking dnsmasq (2.90-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libonig5:arm64.
+Preparing to unpack .../13-libonig5_6.9.7.1-2build1_arm64.deb ...
+Unpacking libonig5:arm64 (6.9.7.1-2build1) ...
+Selecting previously unselected package libjq1:arm64.
+Preparing to unpack .../14-libjq1_1.6-2.1ubuntu3.1_arm64.deb ...
+Unpacking libjq1:arm64 (1.6-2.1ubuntu3.1) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../15-jq_1.6-2.1ubuntu3.1_arm64.deb ...
+Unpacking jq (1.6-2.1ubuntu3.1) ...
+Selecting previously unselected package liblinear4:arm64.
+Preparing to unpack .../16-liblinear4_2.3.0+dfsg-5_arm64.deb ...
+Unpacking liblinear4:arm64 (2.3.0+dfsg-5) ...
+Selecting previously unselected package linux-headers-5.15.0-153.
+Preparing to unpack .../17-linux-headers-5.15.0-153_5.15.0-153.163_all.deb ...
+Unpacking linux-headers-5.15.0-153 (5.15.0-153.163) ...
+Selecting previously unselected package linux-headers-5.15.0-153-generic.
+Preparing to unpack .../18-linux-headers-5.15.0-153-generic_5.15.0-153.163_arm64.deb ...
+Unpacking linux-headers-5.15.0-153-generic (5.15.0-153.163) ...
+Selecting previously unselected package linux-headers-generic.
+Preparing to unpack .../19-linux-headers-generic_5.15.0.153.153_arm64.deb ...
+Unpacking linux-headers-generic (5.15.0.153.153) ...
+Selecting previously unselected package lua-lpeg:arm64.
+Preparing to unpack .../20-lua-lpeg_1.0.2-1_arm64.deb ...
+Unpacking lua-lpeg:arm64 (1.0.2-1) ...
+Selecting previously unselected package nfs-kernel-server.
+Preparing to unpack .../21-nfs-kernel-server_1%3a2.6.1-1ubuntu1.2_arm64.deb ...
+Unpacking nfs-kernel-server (1:2.6.1-1ubuntu1.2) ...
+Selecting previously unselected package nmap-common.
+Preparing to unpack .../22-nmap-common_7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1_all.deb ...
+Unpacking nmap-common (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Selecting previously unselected package python3-pip-whl.
+Preparing to unpack .../23-python3-pip-whl_22.0.2+dfsg-1ubuntu0.6_all.deb ...
+Unpacking python3-pip-whl (22.0.2+dfsg-1ubuntu0.6) ...
+Selecting previously unselected package python3-setuptools-whl.
+Preparing to unpack .../24-python3-setuptools-whl_59.6.0-1.2ubuntu0.22.04.3_all.deb ...
+Unpacking python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.3) ...
+Selecting previously unselected package python3.10-venv.
+Preparing to unpack .../25-python3.10-venv_3.10.12-1~22.04.11_arm64.deb ...
+Unpacking python3.10-venv (3.10.12-1~22.04.11) ...
+Selecting previously unselected package python3-venv.
+Preparing to unpack .../26-python3-venv_3.10.6-1~22.04.1_arm64.deb ...
+Unpacking python3-venv (3.10.6-1~22.04.1) ...
+Selecting previously unselected package screen.
+Preparing to unpack .../27-screen_4.9.0-1_arm64.deb ...
+Unpacking screen (4.9.0-1) ...
+Selecting previously unselected package wireguard-dkms.
+Preparing to unpack .../28-wireguard-dkms_1.0.20210606-1_all.deb ...
+Unpacking wireguard-dkms (1.0.20210606-1) ...
+Selecting previously unselected package wireguard-tools.
+Preparing to unpack .../29-wireguard-tools_1.0.20210914-1ubuntu2_arm64.deb ...
+Unpacking wireguard-tools (1.0.20210914-1ubuntu2) ...
+Selecting previously unselected package wireguard.
+Preparing to unpack .../30-wireguard_1.0.20210914-1ubuntu2_all.deb ...
+Unpacking wireguard (1.0.20210914-1ubuntu2) ...
+Selecting previously unselected package nmap.
+Preparing to unpack .../31-nmap_7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1_arm64.deb ...
+Unpacking nmap (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Selecting previously unselected package socat.
+Preparing to unpack .../32-socat_1.7.4.1-3ubuntu4_arm64.deb ...
+Unpacking socat (1.7.4.1-3ubuntu4) ...
+Setting up python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.3) ...
+Setting up lua-lpeg:arm64 (1.0.2-1) ...
+Setting up cpp-12 (12.3.0-1ubuntu1~22.04.2) ...
+Setting up linux-headers-5.15.0-153 (5.15.0-153.163) ...
+Setting up python3-pip-whl (22.0.2+dfsg-1ubuntu0.6) ...
+Setting up chrony (4.2-2ubuntu2) ...
+
+Creating config file /etc/chrony/chrony.conf with new version
+
+Creating config file /etc/chrony/chrony.keys with new version
+dpkg-statoverride: warning: --update given but /var/log/chrony does not exist
+Created symlink /etc/systemd/system/chronyd.service → /lib/systemd/system/chrony.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/chrony.service → /lib/systemd/system/chrony.service.
+Setting up acct (6.6.4-4build2) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+update-rc.d: warning: stop runlevel arguments (1) do not match acct Default-Stop values (0 1 6)
+Created symlink /etc/systemd/system/multi-user.target.wants/acct.service → /lib/systemd/system/acct.service.
+Setting up screen (4.9.0-1) ...
+Setting up liblinear4:arm64 (2.3.0+dfsg-5) ...
+Setting up dnsmasq (2.90-0ubuntu0.22.04.1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/dnsmasq.service → /lib/systemd/system/dnsmasq.service.
+Job for dnsmasq.service failed because the control process exited with error code.
+See "systemctl status dnsmasq.service" and "journalctl -xeu dnsmasq.service" for details.
+invoke-rc.d: initscript dnsmasq, action "start" failed.
+× dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server
+     Loaded: loaded (/lib/systemd/system/dnsmasq.service; enabled; vendor preset: enabled)
+     Active: failed (Result: exit-code) since Wed 2025-08-27 11:00:00 HST; 12ms ago
+    Process: 91792 ExecStartPre=/etc/init.d/dnsmasq checkconfig (code=exited, status=0/SUCCESS)
+    Process: 91800 ExecStart=/etc/init.d/dnsmasq systemd-exec (code=exited, status=2)
+        CPU: 47ms
+
+Aug 27 11:00:00 ubuntu systemd[1]: Starting dnsmasq - A lightweight DHCP and caching DNS server...
+Aug 27 11:00:00 ubuntu dnsmasq[91800]: dnsmasq: failed to create listening socket for port 53: Address already in use
+Aug 27 11:00:00 ubuntu dnsmasq[91800]: failed to create listening socket for port 53: Address already in use
+Aug 27 11:00:00 ubuntu dnsmasq[91800]: FAILED to start up
+Aug 27 11:00:00 ubuntu systemd[1]: dnsmasq.service: Control process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 27 11:00:00 ubuntu systemd[1]: dnsmasq.service: Failed with result 'exit-code'.
+Aug 27 11:00:00 ubuntu systemd[1]: Failed to start dnsmasq - A lightweight DHCP and caching DNS server.
+Setting up socat (1.7.4.1-3ubuntu4) ...
+Setting up wireguard-tools (1.0.20210914-1ubuntu2) ...
+wg-quick.target is a disabled or a static unit not running, not starting it.
+Setting up nano (6.2-1ubuntu0.1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of lit
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of linkt
+Setting up keyutils (1.6.1-2ubuntu3) ...
+Setting up nmap-common (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Setting up libasan8:arm64 (12.3.0-1ubuntu1~22.04.2) ...
+Setting up libtsan2:arm64 (12.3.0-1ubuntu1~22.04.2) ...
+Setting up libonig5:arm64 (6.9.7.1-2build1) ...
+Setting up dctrl-tools (2.24-3build2) ...
+Setting up linux-headers-5.15.0-153-generic (5.15.0-153.163) ...
+Setting up python3.10-venv (3.10.12-1~22.04.11) ...
+Setting up libjq1:arm64 (1.6-2.1ubuntu3.1) ...
+Setting up linux-headers-generic (5.15.0.153.153) ...
+Setting up nmap (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Setting up nfs-common (1:2.6.1-1ubuntu1.2) ...
+
+Creating config file /etc/idmapd.conf with new version
+
+Creating config file /etc/nfs.conf with new version
+Adding system user `statd' (UID 130) ...
+Adding new user `statd' (UID 130) with group `nogroup' ...
+Not creating home directory `/var/lib/nfs'.
+Created symlink /etc/systemd/system/multi-user.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.
+Created symlink /etc/systemd/system/remote-fs.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.
+auth-rpcgss-module.service is a disabled or a static unit, not starting it.
+nfs-idmapd.service is a disabled or a static unit, not starting it.
+nfs-utils.service is a disabled or a static unit, not starting it.
+proc-fs-nfsd.mount is a disabled or a static unit, not starting it.
+rpc-gssd.service is a disabled or a static unit, not starting it.
+rpc-statd-notify.service is a disabled or a static unit, not starting it.
+rpc-statd.service is a disabled or a static unit, not starting it.
+rpc-svcgssd.service is a disabled or a static unit, not starting it.
+rpc_pipefs.target is a disabled or a static unit, not starting it.
+var-lib-nfs-rpc_pipefs.mount is a disabled or a static unit, not starting it.
+Setting up python3-venv (3.10.6-1~22.04.1) ...
+Setting up libgcc-12-dev:arm64 (12.3.0-1ubuntu1~22.04.2) ...
+Setting up jq (1.6-2.1ubuntu3.1) ...
+Setting up nfs-kernel-server (1:2.6.1-1ubuntu1.2) ...
+Created symlink /etc/systemd/system/nfs-client.target.wants/nfs-blkmap.service → /lib/systemd/system/nfs-blkmap.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/nfs-server.service → /lib/systemd/system/nfs-server.service.
+nfs-mountd.service is a disabled or a static unit, not starting it.
+nfsdcld.service is a disabled or a static unit, not starting it.
+
+Creating config file /etc/exports with new version
+
+Creating config file /etc/default/nfs-kernel-server with new version
+Setting up gcc-12 (12.3.0-1ubuntu1~22.04.2) ...
+Setting up dkms (2.8.7-2ubuntu2.2) ...
+Setting up wireguard-dkms (1.0.20210606-1) ...
+Loading new wireguard-1.0.20210606 DKMS files...
+Building for 5.15.148-tegra
+Building initial module for 5.15.148-tegra
+Error! The /var/lib/dkms/wireguard/1.0.20210606/5.15.148-tegra/aarch64/dkms.conf for module wireguard includes a BUILD_EXCLUSIVE directive .
+The /var/lib/dkms/wireguard/1.0.20210606/5.15.148-tegra/aarch64/dkms.conf for module wireguard includes a BUILD_EXCLUSIVE directive which d.
+This indicates that it should not be built.
+Skipped.
+Setting up wireguard (1.0.20210914-1ubuntu2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for dbus (1.12.20-2ubuntu4.1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.10) ...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following packages have been kept back:
+  libopencv-dev ubuntu-advantage-tools
+The following packages will be upgraded:
+  linux-libc-dev
+1 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Need to get 1,300 kB of archives.
+After this operation, 1,024 B of additional disk space will be used.
+Get:1 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 linux-libc-dev arm64 5.15.0-153.163 [1,300 kB]
+Fetched 1,300 kB in 2s (693 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+(Reading database ... 232552 files and directories currently installed.)
+Preparing to unpack .../linux-libc-dev_5.15.0-153.163_arm64.deb ...
+Unpacking linux-libc-dev:arm64 (5.15.0-153.163) over (5.15.0-152.162) ...
+Setting up linux-libc-dev:arm64 (5.15.0-153.163) ...
+Collecting pywagglemsg
+  Downloading pywagglemsg-0.4.0-py3-none-any.whl (4.0 kB)
+Installing collected packages: pywagglemsg
+Successfully installed pywagglemsg-0.4.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is rv
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target → /lib/systemd/system/multi-user.target.
+Removed /etc/systemd/system/multi-user.target.wants/nvzramconfig.service.
+--2025-08-27 11:00:33--  https://github.com/waggle-sensor/waggle-common-tools/releases/download/v1.0.1/waggle-common-tools_1.0.1_all.deb
+Resolving github.com (github.com)... 140.82.116.4
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/330020394/a23587a8-de10-47ce-8416-2310636337bc?sp=r&]
+--2025-08-27 11:00:33--  https://release-assets.githubusercontent.com/github-production-release-asset/330020394/a23587a8-de10-47ce-8416-231m
+Resolving release-assets.githubusercontent.com (release-assets.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133,.
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2980 (2.9K) [application/octet-stream]
+Saving to: ‘waggle-common-tools_1.0.1_all.deb’
+
+waggle-common-tools 100%[===================>]   2.91K  --.-KB/s    in 0s
+
+2025-08-27 11:00:34 (6.75 MB/s) - ‘waggle-common-tools_1.0.1_all.deb’ saved [2980/2980]
+
+--2025-08-27 11:00:34--  https://github.com/waggle-sensor/waggle-bk-reverse-tunnel/releases/download/v2.3.2/waggle-bk-reverse-tunnel_2.3.2_b
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/333534461/adf1c813-97b9-423a-837c-b0cbf7632520?sp=r&]
+--2025-08-27 11:00:35--  https://release-assets.githubusercontent.com/github-production-release-asset/333534461/adf1c813-97b9-423a-837c-b0cm
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2240 (2.2K) [application/octet-stream]
+Saving to: ‘waggle-bk-reverse-tunnel_2.3.2_all.deb’
+
+waggle-bk-reverse-t 100%[===================>]   2.19K  --.-KB/s    in 0s
+
+2025-08-27 11:00:35 (5.15 MB/s) - ‘waggle-bk-reverse-tunnel_2.3.2_all.deb’ saved [2240/2240]
+
+--2025-08-27 11:00:35--  https://github.com/waggle-sensor/waggle-bk-registration/releases/download/v2.3.0/waggle-bk-registration_2.3.0_all.b
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/292914832/f2f60c5c-b2fc-46e0-bd5d-249c4c923818?sp=r&]
+--2025-08-27 11:00:36--  https://release-assets.githubusercontent.com/github-production-release-asset/292914832/f2f60c5c-b2fc-46e0-bd5d-249m
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3108 (3.0K) [application/octet-stream]
+Saving to: ‘waggle-bk-registration_2.3.0_all.deb’
+
+waggle-bk-registrat 100%[===================>]   3.04K  --.-KB/s    in 0s
+
+2025-08-27 11:00:37 (6.79 MB/s) - ‘waggle-bk-registration_2.3.0_all.deb’ saved [3108/3108]
+
+--2025-08-27 11:00:37--  https://github.com/waggle-sensor/waggle-nodeid/releases/download/v1.0.7/waggle-nodeid_1.0.7_all.deb
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/332072723/a28c3ab0-11de-4ae6-aff1-a390003777bd?sp=r&]
+--2025-08-27 11:00:37--  https://release-assets.githubusercontent.com/github-production-release-asset/332072723/a28c3ab0-11de-4ae6-aff1-a39m
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2536 (2.5K) [application/octet-stream]
+Saving to: ‘waggle-nodeid_1.0.7_all.deb’
+
+waggle-nodeid_1.0.7 100%[===================>]   2.48K  --.-KB/s    in 0s
+
+2025-08-27 11:00:37 (6.68 MB/s) - ‘waggle-nodeid_1.0.7_all.deb’ saved [2536/2536]
+
+--2025-08-27 11:00:37--  https://github.com/waggle-sensor/waggle-firewall/releases/download/v1.1.3/waggle-firewall_1.1.3_all.deb
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/355647494/290a1854-1f8f-4775-bded-67f6334e82a0?sp=r&]
+--2025-08-27 11:00:38--  https://release-assets.githubusercontent.com/github-production-release-asset/355647494/290a1854-1f8f-4775-bded-67fm
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2024 (2.0K) [application/octet-stream]
+Saving to: ‘waggle-firewall_1.1.3_all.deb’
+
+waggle-firewall_1.1 100%[===================>]   1.98K  --.-KB/s    in 0s
+
+2025-08-27 11:00:39 (5.18 MB/s) - ‘waggle-firewall_1.1.3_all.deb’ saved [2024/2024]
+
+--2025-08-27 11:00:39--  https://github.com/waggle-sensor/waggle-internet-share/releases/download/v1.4.1/waggle-internet-share_1.4.1_all.deb
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/340123361/142b06dc-8db7-49d1-9efc-d812d7a371a2?sp=r&]
+--2025-08-27 11:00:39--  https://release-assets.githubusercontent.com/github-production-release-asset/340123361/142b06dc-8db7-49d1-9efc-d81m
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1732 (1.7K) [application/octet-stream]
+Saving to: ‘waggle-internet-share_1.4.1_all.deb’
+
+waggle-internet-sha 100%[===================>]   1.69K  --.-KB/s    in 0s
+
+2025-08-27 11:00:40 (4.42 MB/s) - ‘waggle-internet-share_1.4.1_all.deb’ saved [1732/1732]
+
+--2025-08-27 11:00:40--  https://github.com/waggle-sensor/waggle-network-watchdog/releases/download/v3.0.0/waggle-network-watchdog_3.0.0_alb
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/340505427/090f6dc8-10bc-404c-a7ac-04a6a9363e5a?sp=r&]
+--2025-08-27 11:00:40--  https://release-assets.githubusercontent.com/github-production-release-asset/340505427/090f6dc8-10bc-404c-a7ac-04am
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6604 (6.4K) [application/octet-stream]
+Saving to: ‘waggle-network-watchdog_3.0.0_all.deb’
+
+waggle-network-watc 100%[===================>]   6.45K  --.-KB/s    in 0.001s
+
+2025-08-27 11:00:41 (11.0 MB/s) - ‘waggle-network-watchdog_3.0.0_all.deb’ saved [6604/6604]
+
+--2025-08-27 11:00:41--  https://github.com/waggle-sensor/waggle-wagman-watchdog/releases/download/v1.3.0/sage-wagman-watchdog_1.3.0_all.deb
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/316048151/ccec65a5-2e66-4596-99b5-97630bf7e491?sp=r&]
+--2025-08-27 11:00:42--  https://release-assets.githubusercontent.com/github-production-release-asset/316048151/ccec65a5-2e66-4596-99b5-976m
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1728 (1.7K) [application/octet-stream]
+Saving to: ‘sage-wagman-watchdog_1.3.0_all.deb’
+
+sage-wagman-watchdo 100%[===================>]   1.69K  --.-KB/s    in 0s
+
+2025-08-27 11:00:42 (5.38 MB/s) - ‘sage-wagman-watchdog_1.3.0_all.deb’ saved [1728/1728]
+
+FINISHED --2025-08-27 11:00:42--
+Total wall clock time: 9.4s
+Downloaded: 8 files, 22K in 0.003s (6.72 MB/s)
+Selecting previously unselected package waggle-common-tools.
+(Reading database ... 232552 files and directories currently installed.)
+Preparing to unpack waggle-common-tools_1.0.1_all.deb ...
+Unpacking waggle-common-tools (1.0.1-0-g56a1424) ...
+Selecting previously unselected package waggle-bk-reverse-tunnel.
+Preparing to unpack waggle-bk-reverse-tunnel_2.3.2_all.deb ...
+Unpacking waggle-bk-reverse-tunnel (2.3.2-0-gd0b1b97) ...
+Selecting previously unselected package waggle-bk-registration.
+Preparing to unpack waggle-bk-registration_2.3.0_all.deb ...
+Unpacking waggle-bk-registration (2.3.0-0-g096472b) ...
+Selecting previously unselected package waggle-nodeid.
+Preparing to unpack waggle-nodeid_1.0.7_all.deb ...
+Unpacking waggle-nodeid (1.0.7-0-gd5f1ef6) ...
+Selecting previously unselected package waggle-firewall.
+Preparing to unpack waggle-firewall_1.1.3_all.deb ...
+Unpacking waggle-firewall (1.1.3-0-g3d6ee54) ...
+Selecting previously unselected package waggle-internet-share.
+Preparing to unpack waggle-internet-share_1.4.1_all.deb ...
+Unpacking waggle-internet-share (1.4.1-0-g37cca3f) ...
+Selecting previously unselected package waggle-network-watchdog.
+Preparing to unpack waggle-network-watchdog_3.0.0_all.deb ...
+Unpacking waggle-network-watchdog (3.0.0-0-g662a64b) ...
+Selecting previously unselected package sage-wagman-watchdog.
+Preparing to unpack sage-wagman-watchdog_1.3.0_all.deb ...
+Unpacking sage-wagman-watchdog (1.3.0-0-g11ca196) ...
+Setting up waggle-common-tools (1.0.1-0-g56a1424) ...
+Setting up waggle-bk-reverse-tunnel (2.3.2-0-gd0b1b97) ...
+Enabling & starting waggle-bk-reverse-tunnel service
+Created symlink /etc/systemd/system/multi-user.target.wants/waggle-bk-reverse-tunnel.service → /etc/systemd/system/waggle-bk-reverse-tunnel.
+Setting up waggle-bk-registration (2.3.0-0-g096472b) ...
+Enabling waggle-bk-registration service
+Created symlink /etc/systemd/system/default.target.wants/waggle-bk-registration.service → /etc/systemd/system/waggle-bk-registration.servic.
+Setting up waggle-nodeid (1.0.7-0-gd5f1ef6) ...
+Created symlink /etc/systemd/system/default.target.wants/waggle-nodeid.service → /etc/systemd/system/waggle-nodeid.service.
+Setting up waggle-firewall (1.1.3-0-g3d6ee54) ...
+Enabling waggle-firewall service
+Created symlink /etc/systemd/system/multi-user.target.wants/waggle-firewall.service → /etc/systemd/system/waggle-firewall.service.
+Setting up waggle-internet-share (1.4.1-0-g37cca3f) ...
+Enabling Waggle Local Internet Share Service
+Created symlink /etc/systemd/system/multi-user.target.wants/waggle-internet-share.service → /etc/systemd/system/waggle-internet-share.servi.
+Setting up waggle-network-watchdog (3.0.0-0-g662a64b) ...
+Enabling & starting Network Watchdog Service
+Created symlink /etc/systemd/system/multi-user.target.wants/waggle-network-watchdog.service → /etc/systemd/system/waggle-network-watchdog.s.
+Setting up sage-wagman-watchdog (1.3.0-0-g11ca196) ...
+Enabling & starting Waggle Wagman Watchdog Service
+Created symlink /etc/systemd/system/basic.target.wants/waggle-wagman-watchdog.timer → /etc/systemd/system/waggle-wagman-watchdog.timer.
+Unit /etc/systemd/system/systemd-timesyncd.service is masked, ignoring.
+Synchronizing state of chrony.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable chrony
