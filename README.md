@@ -57,6 +57,9 @@ git clone https://github.com/cleeuh/volunteer-node-setup
 > [!NOTE]
 > The build-rootfs.sh file indicates that it is used to create a new installation image/distribution, however I just ran it directly on the device (It should theoretically work the same). I ran the following as **root** user (i.e. sudo -i).  However, if there are no special env variables needed/conflicts provided by root user, running as `sudo ./build-rootfs.sh` should work the same.
 
+> [!WARNING]
+> Temporarily removed build-rootfs.sh from repo.
+
 ```bash
 cd ~/Downloads/volunteer-node-setup/setup && sudo ./build-rootfs.sh
 ```
